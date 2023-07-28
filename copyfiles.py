@@ -38,7 +38,7 @@ def proecss():
 
 
     # 복사가 완료되었음을 출력합니다.
-    print("All files copied to c:\\Woosan\\Works\\aaa")
+    print(f'All files copied to {opt.sf}')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
