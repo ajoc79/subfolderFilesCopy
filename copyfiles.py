@@ -42,7 +42,7 @@ def proecss():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--sf', type=str, default='C:\\Users\\ajoc7\\Downloads', help='source folder')
-    parser.add_argument('--df', type=str, default='c:\\Woosan\\Works\\aaa', help='dest folder')
+    parser.add_argument('--sf', type=str, default='C:\\Downloads', help='source folder')
+    parser.add_argument('--df', type=str, default='c:\\Downloads\\Dest', help='dest folder')
     opt = parser.parse_args()
     proecss();
